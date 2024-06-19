@@ -7,7 +7,7 @@
   // Sichtbarkeit des generierten Codes
   "accessModifier": "internal",
   // Name der generierten DataContext-Klasse
-  "dataContextClassName": "SwhOnlineStreamingServiceManagementContext",
+  "dataContextClassName": "DataContext",
   // Pfad der Ausgabedatei
   "outputFilePath": "SwhOnlineStreamingServiceManagement.entities.cs",
   // Pfad zum Metadatenverzeichnis (offline-Modus)
@@ -19,7 +19,7 @@
       "appModelName": "SwhOnlineStreamingServiceManagement",
       "relativeNamespace": "",
       // Auswahl der Klassen. null == alle, [] = keine.
-      "cluuClassNames": [],
+        "cluuClassNames": null,
       // Auswahl der Aktionen. null == alle, [] = keine.
       "cluuActionNames": []
     }

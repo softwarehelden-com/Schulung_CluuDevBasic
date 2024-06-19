@@ -64,6 +64,13 @@
           "@PropertyInfoFriendlyName": "FirstName"
         },
         {
+          "Id": "7498ea31-c209-4711-930e-b65e6a3825ad",
+          "Type": 0,
+          "TargetFieldName": "BusinessEmail",
+          "PropertyInfoId": "5acb8a8b-ec61-4892-8b37-c7ae098347d3",
+          "@PropertyInfoFriendlyName": "EMail"
+        },
+        {
           "Id": "9952eaef-dd75-4e11-ad76-6e9c4695df6f",
           "Type": 0,
           "TargetFieldName": "UniqueId",
