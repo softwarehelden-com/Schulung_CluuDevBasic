@@ -1,0 +1,80 @@
+﻿{
+  "Groups": [
+    {
+      "UniqueId": "1d187ae2-6350-4c70-b909-9646463ead06",
+      "Caption": "SWH-Mitarbeiter",
+      "IsObsolete": false,
+      "Authorizations": [
+        {
+          "UniqueId": "225e63d9-0944-40a7-9fa6-440a2bb8148e",
+          "RoleId": "379bbf99-d798-473a-a935-61e850198809",
+          "RoleParameterValues": [
+            {
+              "UniqueId": "93bf002e-940c-4a15-ad29-453c20cf7bce",
+              "RoleParameterId": "67ccf2fd-faee-477b-91e7-2c78ce8f9b7b",
+              "ObjectFilterId": "41014755-82d0-4064-88c9-a9378d272817",
+              "@ObjectFilterFriendlyName": "Alle Navigationsknoten, die Online Streaming Service Verwaltung angehören."
+            },
+            {
+              "UniqueId": "a092c126-6a99-41ee-8b75-f312c7973b85",
+              "RoleParameterId": "bad430e1-4b01-4274-8d22-4e313dce4292",
+              "ObjectFilterId": "d632a0c8-247d-4657-9bd0-132ca43c6c61",
+              "@ObjectFilterFriendlyName": "Alle Apps, die Online Streaming Service Verwaltung angehören."
+            }
+          ]
+        },
+        {
+          "UniqueId": "2419e499-5af2-4dc5-9ff3-095818a5f173",
+          "RoleId": "f929c006-6fc5-4847-81fd-93883c8a0425"
+        },
+        {
+          "UniqueId": "68203a66-cdcc-43ca-9611-4f873b96d4a8",
+          "RoleId": "80e77c3d-25f2-4732-ba23-f2354142c052",
+          "@RoleFriendlyName": "SwhOnlineStreamingServiceManagement.User",
+          "RoleParameterValues": [
+            {
+              "UniqueId": "c7b5ade6-19d9-4d78-92f0-85d2ce228e88",
+              "RoleParameterId": "7f2aa572-e3b0-4492-a682-09ad553edeae",
+              "@RoleParameterFriendlyName": "Accounts",
+              "ObjectFilterId": "eaa8816a-63fd-40f4-8f5c-66db90077954",
+              "@ObjectFilterFriendlyName": "Alle Accounts bei denen der aktuelle Benutzer eine Freigabe hat"
+            },
+            {
+              "UniqueId": "ea5fd8e2-8090-4b48-bea4-7d5edd744d42",
+              "RoleParameterId": "7f2aa572-e3b0-4492-a682-09ad553edeae",
+              "@RoleParameterFriendlyName": "Accounts",
+              "ObjectFilterId": "d139a583-c95b-4b4f-abc3-f92b9f72200e",
+              "@ObjectFilterFriendlyName": "Alle Accounts, bei denen der aktuelle Benutzer der Verantwortliche ist"
+            }
+          ]
+        },
+        {
+          "UniqueId": "a84e8dee-4369-4ec8-95cc-332cdbd7e12a",
+          "RoleId": "37b5b303-70f2-43a8-9c77-ed035beca811",
+          "@RoleFriendlyName": "SwhOnlineStreamingServiceManagement.AccountManager",
+          "RoleParameterValues": [
+            {
+              "UniqueId": "91224cd3-b86c-4a58-8108-6e23c886b8d7",
+              "RoleParameterId": "91bb040c-ced1-4f06-a8dd-bb0adcaf081e",
+              "@RoleParameterFriendlyName": "Accounts",
+              "ObjectFilterId": "d139a583-c95b-4b4f-abc3-f92b9f72200e",
+              "@ObjectFilterFriendlyName": "Alle Accounts, bei denen der aktuelle Benutzer der Verantwortliche ist"
+            }
+          ]
+        },
+        {
+          "UniqueId": "b2b76b63-5472-47a9-a5c4-547b9e2f3edc",
+          "RoleId": "b7b638a8-8fac-4ce7-bc16-37f98b8253e1",
+          "RoleParameterValues": [
+            {
+              "UniqueId": "5082c027-8939-435e-9a96-37d4b02880c3",
+              "RoleParameterId": "5f150733-2b77-4c25-8eaa-122a15a38343",
+              "ObjectFilterId": "9e9c543e-91a4-4af3-bbe3-65541305088d",
+              "@ObjectFilterFriendlyName": "9e9c543e-91a4-4af3-bbe3-65541305088d"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

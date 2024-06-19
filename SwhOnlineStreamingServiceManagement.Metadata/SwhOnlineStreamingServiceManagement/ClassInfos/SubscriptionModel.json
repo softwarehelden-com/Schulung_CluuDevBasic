@@ -1,0 +1,12 @@
+﻿{
+  "Id": "c7677873-cefc-4b8e-a72b-c8bde6ecbce3",
+  "ClassName": "SwhOnlineStreamingServiceManagement.SubscriptionModel",
+  "Caption": "Abomodell",
+  "PluralCaption": "Abomodelle",
+  "IsObsolete": false,
+  "ClassUIInfo": {
+    "UniqueId": "24616dab-e170-428b-b5ae-be1616247aaf",
+    "IsRelationClass": false,
+    "RelationClassType": 0
+  }
+}

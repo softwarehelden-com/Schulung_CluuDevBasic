@@ -1,0 +1,12 @@
+﻿{
+  "Id": "dc7f8901-0c6e-4158-ad64-b904e783c203",
+  "ClassName": "SwhOnlineStreamingServiceManagement.AccountType",
+  "Caption": "Accounttyp",
+  "PluralCaption": " Accounttypen",
+  "IsObsolete": false,
+  "ClassUIInfo": {
+    "UniqueId": "ed186960-3dea-4c13-bfee-b6f90e43d3cf",
+    "IsRelationClass": false,
+    "RelationClassType": 0
+  }
+}

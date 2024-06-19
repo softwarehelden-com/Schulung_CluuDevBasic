@@ -1,0 +1,19 @@
+﻿{
+  "ParentRelationInfos": [
+    {
+      "Id": "f82f70f3-6d28-47f2-b205-1262f7b75b03",
+      "ParentRelationName": "Person",
+      "ChildCardinalityMin": 0,
+      "ChildRelationName": "Logins",
+      "IsObsolete": false,
+      "ParentClassInfoId": "53b1a001-ca33-4b49-b0ad-14515c26a472",
+      "@ParentClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.IPerson",
+      "ParentPropertyInfoId": "2710c503-673f-44b7-a396-f8786231b55e",
+      "@ParentPropertyInfoFriendlyName": "UniqueId",
+      "ChildClassInfoId": "53d93269-c54c-4fe6-b1e5-c1c6aa8897a3",
+      "@ChildClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.ILogin",
+      "ChildPropertyInfoId": "7aee3fdc-6b8a-4880-97f2-eb7d3461332c",
+      "@ChildPropertyInfoFriendlyName": "PersonId"
+    }
+  ]
+}

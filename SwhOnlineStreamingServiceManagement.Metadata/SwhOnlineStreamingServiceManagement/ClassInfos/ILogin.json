@@ -1,0 +1,13 @@
+﻿{
+  "Id": "53d93269-c54c-4fe6-b1e5-c1c6aa8897a3",
+  "ClassName": "SwhOnlineStreamingServiceManagement.ILogin",
+  "Caption": "Benutzer",
+  "IsObsolete": false,
+  "IsInterface": true,
+  "ClassUIInfo": {
+    "UniqueId": "3d40900c-ff6f-4bb5-b887-0505f20abef9",
+    "InterfaceBehaviour": 0,
+    "IsRelationClass": false,
+    "RelationClassType": 0
+  }
+}

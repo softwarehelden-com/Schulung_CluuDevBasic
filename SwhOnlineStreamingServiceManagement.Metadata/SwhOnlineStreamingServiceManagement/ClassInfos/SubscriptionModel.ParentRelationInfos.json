@@ -1,0 +1,20 @@
+﻿{
+  "ParentRelationInfos": [
+    {
+      "Id": "4fe73f4c-96d4-46b9-8f46-bb40df6efe6e",
+      "ParentRelationName": "AccountType",
+      "ChildCardinalityMin": 0,
+      "ChildRelationName": "SubscriptionModels",
+      "DeleteRule": 2,
+      "IsObsolete": false,
+      "ParentClassInfoId": "dc7f8901-0c6e-4158-ad64-b904e783c203",
+      "@ParentClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountType",
+      "ParentPropertyInfoId": "861d5faa-88e7-4571-9226-0e6500106a26",
+      "@ParentPropertyInfoFriendlyName": "Id",
+      "ChildClassInfoId": "c7677873-cefc-4b8e-a72b-c8bde6ecbce3",
+      "@ChildClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.SubscriptionModel",
+      "ChildPropertyInfoId": "cd3af032-e541-46b7-b72b-7be221461403",
+      "@ChildPropertyInfoFriendlyName": "AccountTypeId"
+    }
+  ]
+}

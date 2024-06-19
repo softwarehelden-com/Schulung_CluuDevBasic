@@ -1,0 +1,11 @@
+﻿{
+  "RoleParameters": [
+    {
+      "UniqueId": "91bb040c-ced1-4f06-a8dd-bb0adcaf081e",
+      "Caption": "Accounts",
+      "IsObsolete": false,
+      "ClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account"
+    }
+  ]
+}

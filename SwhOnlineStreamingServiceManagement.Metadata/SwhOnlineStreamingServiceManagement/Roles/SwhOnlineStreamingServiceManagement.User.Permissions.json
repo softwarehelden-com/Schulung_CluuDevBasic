@@ -1,0 +1,63 @@
+﻿{
+  "Permissions": [
+    {
+      "UniqueId": "1d4048f1-2de7-4577-a42a-d93e30b9c715",
+      "AllowRead": true,
+      "AllowCreate": false,
+      "AllowUpdate": false,
+      "AllowDelete": false,
+      "ClassInfoId": "53b1a001-ca33-4b49-b0ad-14515c26a472",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.IPerson"
+    },
+    {
+      "UniqueId": "86671692-6ab0-4ccd-a340-c782e78b2ec9",
+      "AllowRead": true,
+      "AllowCreate": false,
+      "AllowUpdate": false,
+      "AllowDelete": false,
+      "ClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account",
+      "RoleParameterId": "7f2aa572-e3b0-4492-a682-09ad553edeae",
+      "@RoleParameterFriendlyName": "Accounts"
+    },
+    {
+      "UniqueId": "b07ec844-88c2-434c-87ca-06a52223acf0",
+      "AllowRead": true,
+      "AllowCreate": false,
+      "AllowUpdate": false,
+      "AllowDelete": false,
+      "ClassInfoId": "53d93269-c54c-4fe6-b1e5-c1c6aa8897a3",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.ILogin"
+    },
+    {
+      "UniqueId": "b62470ac-9a49-4d27-981f-70edf3b15f59",
+      "AllowRead": true,
+      "AllowCreate": false,
+      "AllowUpdate": false,
+      "AllowDelete": false,
+      "ClassInfoId": "dc7f8901-0c6e-4158-ad64-b904e783c203",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountType"
+    },
+    {
+      "UniqueId": "cec75b6e-a9ef-41d2-82e0-f6c84ba7d845",
+      "AllowRead": true,
+      "AllowCreate": false,
+      "AllowUpdate": false,
+      "AllowDelete": false,
+      "ClassInfoId": "c7677873-cefc-4b8e-a72b-c8bde6ecbce3",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.SubscriptionModel"
+    },
+    {
+      "UniqueId": "ffe0e36f-2019-453b-b610-305f354363d1",
+      "RelationPath": "Account",
+      "AllowRead": true,
+      "AllowCreate": false,
+      "AllowUpdate": false,
+      "AllowDelete": false,
+      "ClassInfoId": "c9719dbb-adee-4546-b388-45e2a156a0c4",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountShare",
+      "RoleParameterId": "7f2aa572-e3b0-4492-a682-09ad553edeae",
+      "@RoleParameterFriendlyName": "Accounts"
+    }
+  ]
+}

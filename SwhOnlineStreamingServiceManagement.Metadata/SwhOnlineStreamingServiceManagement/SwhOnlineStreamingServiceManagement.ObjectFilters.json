@@ -1,0 +1,49 @@
+﻿{
+  "ObjectFilters": [
+    {
+      "UniqueId": "3535d3a6-6fa1-4976-bdf7-c7141cdd52c4",
+      "Caption": "Alle Accounts",
+      "IsObsolete": false,
+      "Constraint": "TRUE",
+      "ClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account"
+    },
+    {
+      "UniqueId": "41014755-82d0-4064-88c9-a9378d272817",
+      "Caption": "Alle Navigationsknoten, die Online Streaming Service Verwaltung angehören.",
+      "IsObsolete": false,
+      "Constraint": "App.AppModel.Name == \"SwhOnlineStreamingServiceManagement\"",
+      "ClassInfoId": "80f939a1-e112-4003-802c-4e2516cb740a"
+    },
+    {
+      "UniqueId": "d139a583-c95b-4b4f-abc3-f92b9f72200e",
+      "Caption": "Alle Accounts, bei denen der aktuelle Benutzer der Verantwortliche ist",
+      "IsObsolete": false,
+      "Constraint": "ResponsiblePerson.Logins.Username == \"{Username}\"",
+      "ClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account"
+    },
+    {
+      "UniqueId": "d632a0c8-247d-4657-9bd0-132ca43c6c61",
+      "Caption": "Alle Apps, die Online Streaming Service Verwaltung angehören.",
+      "IsObsolete": false,
+      "Constraint": "AppModel.Name == \"SwhOnlineStreamingServiceManagement\"",
+      "ClassInfoId": "1f7a2f07-116f-e411-8278-28b2bd5932dd"
+    },
+    {
+      "UniqueId": "eaa8816a-63fd-40f4-8f5c-66db90077954",
+      "Caption": "Alle Accounts bei denen der aktuelle Benutzer eine Freigabe hat",
+      "IsObsolete": false,
+      "Constraint": "AccountShares.Person.Logins.Username == \"{Username}\"",
+      "ClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account"
+    },
+    {
+      "UniqueId": "f99ab64a-77f7-4567-b9f9-6adcc512b058",
+      "Caption": "Alle Applikationsmodelle, die Online Streaming Service Verwaltung angehören.",
+      "IsObsolete": false,
+      "Constraint": "Name == \"SwhOnlineStreamingServiceManagement\"",
+      "ClassInfoId": "07f270d9-171f-e511-80e0-00155d3fef09"
+    }
+  ]
+}

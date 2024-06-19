@@ -1,0 +1,42 @@
+﻿{
+  "ViewFieldGroups": [
+    {
+      "UniqueId": "bc1a2954-012d-418e-a78b-05d2ea26ab71",
+      "Caption": "Dienst",
+      "Name": "Service",
+      "IsCollapsedInReadOnlyView": false,
+      "IsCollapsedInNewView": false,
+      "IsCollapsedInEditView": false,
+      "Ordinal": 1,
+      "DefaultViewFields": [
+        {
+          "UniqueId": "6a083525-844b-45f2-93cc-06b309ef1181",
+          "FieldName": "SubscriptionModelId"
+        },
+        {
+          "UniqueId": "94129c89-1b8c-4f66-a8cc-8ad2d7dae9eb",
+          "FieldName": "AccountTypeId"
+        }
+      ]
+    },
+    {
+      "UniqueId": "694561a7-f416-4cff-9522-24ac22b28e67",
+      "Caption": "Zugangsdaten",
+      "Name": "Credentials",
+      "IsCollapsedInReadOnlyView": false,
+      "IsCollapsedInNewView": false,
+      "IsCollapsedInEditView": false,
+      "Ordinal": 10,
+      "DefaultViewFields": [
+        {
+          "UniqueId": "0d94da92-83fa-4230-90ae-5a9b3f7a9d57",
+          "FieldName": "Username"
+        },
+        {
+          "UniqueId": "b1a15da8-0bd3-4fba-bea6-50d6f3cbb2db",
+          "FieldName": "Password"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+﻿{
+  "NavigationNodes": [
+    {
+      "UniqueId": "8deb7dab-37a9-4179-b5a1-aaaad049f99f",
+      "TypeDescriptor": "Collection",
+      "Caption": "Accounts",
+      "ClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account"
+    },
+    {
+      "UniqueId": "8e8d1ad6-8a44-48aa-8481-872fe40dc8be",
+      "TypeDescriptor": "Collection",
+      "Caption": "Accounttypen",
+      "ClassInfoId": "dc7f8901-0c6e-4158-ad64-b904e783c203",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountType",
+      "ParentNodeId": "c2d17daf-4c52-4de8-b3f8-e78e42b43c1a",
+      "@ParentNodeFriendlyName": "Stammdaten"
+    },
+    {
+      "UniqueId": "c2d17daf-4c52-4de8-b3f8-e78e42b43c1a",
+      "TypeDescriptor": "Parent",
+      "Caption": "Stammdaten"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+﻿{
+  "Permissions": [
+    {
+      "UniqueId": "6cb360bf-2b9f-4b1b-b89e-521fc67255e7",
+      "AllowRead": false,
+      "AllowCreate": true,
+      "AllowUpdate": true,
+      "AllowDelete": true,
+      "ClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account",
+      "RoleParameterId": "91bb040c-ced1-4f06-a8dd-bb0adcaf081e",
+      "@RoleParameterFriendlyName": "Accounts"
+    },
+    {
+      "UniqueId": "d4dbbc9f-b1d4-45e9-b916-f64b5ae321d3",
+      "RelationPath": "Account",
+      "AllowRead": false,
+      "AllowCreate": true,
+      "AllowUpdate": true,
+      "AllowDelete": true,
+      "ClassInfoId": "c9719dbb-adee-4546-b388-45e2a156a0c4",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountShare",
+      "RoleParameterId": "91bb040c-ced1-4f06-a8dd-bb0adcaf081e",
+      "@RoleParameterFriendlyName": "Accounts"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+﻿{
+  "Id": "53b1a001-ca33-4b49-b0ad-14515c26a472",
+  "ClassName": "SwhOnlineStreamingServiceManagement.IPerson",
+  "Caption": "Person",
+  "PluralCaption": "Personen",
+  "IsObsolete": false,
+  "IsInterface": true,
+  "AllowMultipleClassMappings": false,
+  "ClassUIInfo": {
+    "UniqueId": "9b57acc6-432c-424d-b446-e201df7a2475",
+    "InterfaceBehaviour": 0,
+    "FriendlyNameExpression": "{FirstName} {LastName}",
+    "IsRelationClass": false,
+    "RelationClassType": 0
+  }
+}

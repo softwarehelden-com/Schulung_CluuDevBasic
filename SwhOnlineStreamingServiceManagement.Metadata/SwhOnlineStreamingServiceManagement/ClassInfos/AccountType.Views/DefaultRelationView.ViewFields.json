@@ -1,0 +1,22 @@
+﻿{
+  "ViewFields": [
+    {
+      "UniqueId": "dcc5fc65-7d78-4005-a11f-14f90f44c9bc",
+      "FieldName": "SubscriptionModels",
+      "IsVisibleInNewView": true,
+      "IsVisibleInEditView": true,
+      "IsVisibleInObjectView": true,
+      "IsVisibleInCollectionView": true,
+      "IsVisibleInSelectView": true,
+      "IsVisibleInMobileCollectionView": false,
+      "IsVisibleInMobileSelectView": false,
+      "IsVisibleInRelationView": true,
+      "IsVisibleInRelationViewNewMode": true,
+      "IsVisibleInRelationViewEditMode": true,
+      "ShowRawData": false,
+      "IsSearchable": true,
+      "DistinctValues": false,
+      "Ordinal": 10
+    }
+  ]
+}

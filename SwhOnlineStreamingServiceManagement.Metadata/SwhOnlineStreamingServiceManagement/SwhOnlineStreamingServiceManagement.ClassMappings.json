@@ -1,0 +1,83 @@
+﻿{
+  "ClassMappings": [
+    {
+      "Id": "02356e61-0706-4e54-985f-61f11c874e3f",
+      "InterfaceClassInfoId": "53d93269-c54c-4fe6-b1e5-c1c6aa8897a3",
+      "@InterfaceClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.ILogin",
+      "TargetClassInfoId": "c826f723-7bab-e411-80dd-00155d3fef09",
+      "PropertyMappings": [
+        {
+          "Id": "0010ea90-2906-424a-b126-5a1aa548a773",
+          "Type": 0,
+          "TargetFieldName": "Username",
+          "PropertyInfoId": "63853c35-8ad4-425c-8fa3-7f362082b2fd",
+          "@PropertyInfoFriendlyName": "Username"
+        },
+        {
+          "Id": "59923d88-ceec-4406-882c-8b6300e1c100",
+          "Type": 0,
+          "TargetFieldName": "FirstName",
+          "PropertyInfoId": "66e8bc3e-2e4a-4fc7-95cf-b8306f23b61d",
+          "@PropertyInfoFriendlyName": "FirstName"
+        },
+        {
+          "Id": "8644bbe3-82c9-4eb1-9ccf-7d5232228743",
+          "Type": 0,
+          "TargetFieldName": "LastName",
+          "PropertyInfoId": "a8605794-c08d-437a-82b0-9d194e892a3b",
+          "@PropertyInfoFriendlyName": "LastName"
+        },
+        {
+          "Id": "91da2e14-7594-4bed-8725-ce331ffe79f3",
+          "Type": 0,
+          "TargetFieldName": "PersonId",
+          "PropertyInfoId": "7aee3fdc-6b8a-4880-97f2-eb7d3461332c",
+          "@PropertyInfoFriendlyName": "PersonId"
+        },
+        {
+          "Id": "f8e2f5f5-a6dd-4e6b-b193-7f46d66dba16",
+          "Type": 0,
+          "TargetFieldName": "Id",
+          "PropertyInfoId": "1a0964dd-5275-4dd2-8f5c-95d6cc855570",
+          "@PropertyInfoFriendlyName": "Id"
+        }
+      ]
+    },
+    {
+      "Id": "072a89bb-f52e-468c-9f65-16cf40db7959",
+      "InterfaceClassInfoId": "53b1a001-ca33-4b49-b0ad-14515c26a472",
+      "@InterfaceClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.IPerson",
+      "TargetClassInfoId": "62caa44f-4756-4972-a06a-f13a11af1487",
+      "PropertyMappings": [
+        {
+          "Id": "163c9220-72f6-4fda-8749-60c4fc35640d",
+          "Type": 0,
+          "TargetFieldName": "LastName",
+          "PropertyInfoId": "51c3d409-6167-448e-8b5d-6adb3a33045f",
+          "@PropertyInfoFriendlyName": "LastName"
+        },
+        {
+          "Id": "45574566-25c5-445d-9653-21b8e9ee8fc0",
+          "Type": 0,
+          "TargetFieldName": "FirstName",
+          "PropertyInfoId": "6fc2dfc7-cc89-43ff-bdb7-fa199f4495dc",
+          "@PropertyInfoFriendlyName": "FirstName"
+        },
+        {
+          "Id": "9952eaef-dd75-4e11-ad76-6e9c4695df6f",
+          "Type": 0,
+          "TargetFieldName": "UniqueId",
+          "PropertyInfoId": "2710c503-673f-44b7-a396-f8786231b55e",
+          "@PropertyInfoFriendlyName": "UniqueId"
+        },
+        {
+          "Id": "9c61096a-7ffb-40ff-91b9-78394dce141b",
+          "Type": 0,
+          "TargetFieldName": "Id",
+          "PropertyInfoId": "88fde496-374b-4897-a10f-a49c43f8ddf1",
+          "@PropertyInfoFriendlyName": "Id"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+﻿{
+  "Id": "c9719dbb-adee-4546-b388-45e2a156a0c4",
+  "ClassName": "SwhOnlineStreamingServiceManagement.AccountShare",
+  "Caption": "Freigabe",
+  "IsObsolete": false,
+  "ClassUIInfo": {
+    "UniqueId": "6f8f6362-f830-46dd-acaf-def46a8fe843",
+    "IsRelationClass": false,
+    "RelationClassType": 0
+  }
+}

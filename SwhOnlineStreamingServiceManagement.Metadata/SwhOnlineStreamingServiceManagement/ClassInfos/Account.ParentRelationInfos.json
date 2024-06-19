@@ -1,0 +1,57 @@
+﻿{
+  "ParentRelationInfos": [
+    {
+      "Id": "5e9b0776-6486-411a-bf9d-d205d571dc4a",
+      "ParentRelationName": "AccountType",
+      "ChildCardinalityMin": 0,
+      "ChildRelationName": "Accounts",
+      "DeleteRule": 1,
+      "PreventCascadeDeleteMessage": "Es existieren noch Accounts zu diesem Typ.",
+      "IsObsolete": false,
+      "ParentClassInfoId": "dc7f8901-0c6e-4158-ad64-b904e783c203",
+      "@ParentClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountType",
+      "ParentPropertyInfoId": "861d5faa-88e7-4571-9226-0e6500106a26",
+      "@ParentPropertyInfoFriendlyName": "Id",
+      "ChildClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ChildClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account",
+      "ChildPropertyInfoId": "1b61825d-84be-4bec-a3cf-ebec8dcaad49",
+      "@ChildPropertyInfoFriendlyName": "AccountTypeId"
+    },
+    {
+      "Id": "9cba3572-2824-4bc5-88ae-c7d504c25947",
+      "ParentRelationName": "ResponsiblePerson",
+      "ParentRelationCaption": "Verantwortliche Person",
+      "ParentRelationPluralCaption": "Verantwortliche Personen",
+      "ChildCardinalityMin": 0,
+      "ChildRelationName": "AccountsUnderResponsibility",
+      "ChildRelationCaption": "Verantworteter Account",
+      "ChildRelationPluralCaption": "Verantwortete Accounts",
+      "DeleteRule": 1,
+      "IsObsolete": false,
+      "ParentClassInfoId": "53b1a001-ca33-4b49-b0ad-14515c26a472",
+      "@ParentClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.IPerson",
+      "ParentPropertyInfoId": "88fde496-374b-4897-a10f-a49c43f8ddf1",
+      "@ParentPropertyInfoFriendlyName": "Id",
+      "ChildClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ChildClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account",
+      "ChildPropertyInfoId": "24dfe5da-69b3-4608-8f40-f46670cfa375",
+      "@ChildPropertyInfoFriendlyName": "ResponsiblePersonId"
+    },
+    {
+      "Id": "c80e81c6-6048-4a2a-9b12-46fc1a6fa117",
+      "ParentRelationName": "SubscriptionModel",
+      "ChildCardinalityMin": 0,
+      "ChildRelationName": "Accounts",
+      "DeleteRule": 1,
+      "IsObsolete": false,
+      "ParentClassInfoId": "c7677873-cefc-4b8e-a72b-c8bde6ecbce3",
+      "@ParentClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.SubscriptionModel",
+      "ParentPropertyInfoId": "c14f1d7d-d45f-418e-9f53-7a08e27d47d1",
+      "@ParentPropertyInfoFriendlyName": "Id",
+      "ChildClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ChildClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account",
+      "ChildPropertyInfoId": "7b8df606-5b1c-4038-b2a4-ba460b56207d",
+      "@ChildPropertyInfoFriendlyName": "SubscriptionModelId"
+    }
+  ]
+}

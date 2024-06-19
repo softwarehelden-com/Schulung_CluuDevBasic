@@ -1,0 +1,36 @@
+﻿{
+  "ParentRelationInfos": [
+    {
+      "Id": "585ae6e5-5506-4a59-940d-02ef7f491f55",
+      "ParentRelationName": "Person",
+      "ChildCardinalityMin": 0,
+      "ChildRelationName": "AccountShares",
+      "DeleteRule": 2,
+      "IsObsolete": false,
+      "ParentClassInfoId": "53b1a001-ca33-4b49-b0ad-14515c26a472",
+      "@ParentClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.IPerson",
+      "ParentPropertyInfoId": "88fde496-374b-4897-a10f-a49c43f8ddf1",
+      "@ParentPropertyInfoFriendlyName": "Id",
+      "ChildClassInfoId": "c9719dbb-adee-4546-b388-45e2a156a0c4",
+      "@ChildClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountShare",
+      "ChildPropertyInfoId": "72e81173-3a71-4b8c-ba8b-b9c4f1d51901",
+      "@ChildPropertyInfoFriendlyName": "PersonId"
+    },
+    {
+      "Id": "dfe63a31-6bea-474e-a08d-517aadbf1325",
+      "ParentRelationName": "Account",
+      "ChildCardinalityMin": 0,
+      "ChildRelationName": "AccountShares",
+      "DeleteRule": 2,
+      "IsObsolete": false,
+      "ParentClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ParentClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account",
+      "ParentPropertyInfoId": "06ffeebe-143b-49b3-ba6b-8a3e0f736ecc",
+      "@ParentPropertyInfoFriendlyName": "Id",
+      "ChildClassInfoId": "c9719dbb-adee-4546-b388-45e2a156a0c4",
+      "@ChildClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountShare",
+      "ChildPropertyInfoId": "c9a7ee99-a81e-41a7-80b1-68541db01150",
+      "@ChildPropertyInfoFriendlyName": "AccountId"
+    }
+  ]
+}

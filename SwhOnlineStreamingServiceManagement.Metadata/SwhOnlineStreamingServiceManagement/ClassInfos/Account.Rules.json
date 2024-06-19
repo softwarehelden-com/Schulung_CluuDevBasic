@@ -1,0 +1,13 @@
+﻿{
+  "Rules": [
+    {
+      "Id": "ef52122b-85b8-40aa-ad21-f838d95a22a8",
+      "TypeDescriptor": "ConstraintRelationRule",
+      "Caption": "Nur Abomodelle des Ausgewählten Accounttyps",
+      "Constraint": "AccountTypeId == \"{AccountTypeId}\"",
+      "RelationDirection": 0,
+      "RelationInfoId": "c80e81c6-6048-4a2a-9b12-46fc1a6fa117",
+      "@RelationInfoFriendlyName": "SubscriptionModel"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+﻿{
+  "Permissions": [
+    {
+      "UniqueId": "079b3067-556e-4842-83e7-66e1e636447a",
+      "AllowRead": true,
+      "AllowCreate": true,
+      "AllowUpdate": true,
+      "AllowDelete": true,
+      "ClassInfoId": "c7677873-cefc-4b8e-a72b-c8bde6ecbce3",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.SubscriptionModel"
+    },
+    {
+      "UniqueId": "3b5666f7-c09d-45c6-8692-fcbdcb98f5fb",
+      "AllowRead": true,
+      "AllowCreate": true,
+      "AllowUpdate": true,
+      "AllowDelete": true,
+      "ClassInfoId": "53d93269-c54c-4fe6-b1e5-c1c6aa8897a3",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.ILogin"
+    },
+    {
+      "UniqueId": "71683e8b-97e9-4bf4-bb74-f11951903500",
+      "AllowRead": true,
+      "AllowCreate": true,
+      "AllowUpdate": true,
+      "AllowDelete": true,
+      "ClassInfoId": "30850241-fb02-4183-8dbb-70acbb6d5c25",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.Account"
+    },
+    {
+      "UniqueId": "7853babd-659a-4bee-a571-f3f4487c3bb7",
+      "AllowRead": true,
+      "AllowCreate": true,
+      "AllowUpdate": true,
+      "AllowDelete": true,
+      "ClassInfoId": "53b1a001-ca33-4b49-b0ad-14515c26a472",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.IPerson"
+    },
+    {
+      "UniqueId": "e1910af2-82ac-4054-9542-63f952c1271c",
+      "AllowRead": true,
+      "AllowCreate": true,
+      "AllowUpdate": true,
+      "AllowDelete": true,
+      "ClassInfoId": "dc7f8901-0c6e-4158-ad64-b904e783c203",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountType"
+    },
+    {
+      "UniqueId": "efa11a78-5fdc-448b-9321-b9572ab90a2d",
+      "AllowRead": true,
+      "AllowCreate": true,
+      "AllowUpdate": true,
+      "AllowDelete": true,
+      "ClassInfoId": "c9719dbb-adee-4546-b388-45e2a156a0c4",
+      "@ClassInfoFriendlyName": "SwhOnlineStreamingServiceManagement.AccountShare"
+    }
+  ]
+}

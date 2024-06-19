@@ -1,0 +1,15 @@
+﻿{
+  "DataAdapter": {
+    "Id": "598c670d-7349-458b-99a3-ed4de6f40af4",
+    "Name": "SwhOnlineStreamingServiceManagementDataAdapter",
+    "Caption": "Datenadapter für das Applikationsmodell \"Online Streaming Service Verwaltung\"",
+    "MappingInfo": {
+      "DefaultSchemaName": "CluuStudio",
+      "ClassMappings": []
+    },
+    "Type": {
+      "Id": "29c8b7e9-63a0-4672-a102-8639356745b7",
+      "Name": "Cluu.Backbone.DataAdapter.MsSqlJson.MsSqlJsonAdapter, Cluu.Backbone.DataAdapter.MsSqlJson"
+    }
+  }
+}

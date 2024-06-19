@@ -1,17 +1,17 @@
 {
-  "$schema": "http://schema.softwarehelden.com/json/metadataproj-v1.json",
-  "SourceConnectionString": "Server=localhost\\SQLEXPRESS;Database=Cluu_6_App_Dev;TrustServerCertificate=True;Integrated Security=true;Connection Timeout=30",
-  "TargetConnectionString": ".",
-  "ComparisonMode": "CluuToJson",
-  "CompareDataAdapters": true,
-  "CompareViewFieldScope": false,
-  "AppModels": [
-    "SwhOnlineStreamingServiceManagement"
-  ],
-  "AppModelDependencies": [
-  ],
-  "DryRun": false,
-  "ClearTarget": true,
-  "ComparisonCultureNames": [ "de-DE", "en-US" ],
-  "DefaultCultureName": "de-DE"
+    "$schema": "http://schema.softwarehelden.com/json/metadataproj-v1.json",
+    "SourceConnectionString": "Server=localhost,50000;Database=Cluu;User Id=cluu;Password=mL%%h*ZPL#&osvz/t.h1;Connection Timeout=30;TrustServerCertificate=true",
+    "TargetConnectionString": ".",
+    "ComparisonMode": "CluuToJson",
+    "CompareDataAdapters": true,
+    "CompareViewFieldScope": false,
+    "AppModels": [
+        "SwhOnlineStreamingServiceManagement"
+    ],
+    "AppModelDependencies": [
+    ],
+    "DryRun": false,
+    "ClearTarget": true,
+    "ComparisonCultureNames": [ "de-DE" ],
+    "DefaultCultureName": "de-DE"
 }
