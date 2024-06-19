@@ -1,6 +1,7 @@
 ﻿using Cluu.AddIn;
 using Cluu.Hosting;
 using Microsoft.Extensions.Hosting;
+using SwhOnlineStreamingServiceManagement.Hosting;
 
 namespace SwhOnlineStreamingServiceManagement.Actions
 {
@@ -14,7 +15,11 @@ namespace SwhOnlineStreamingServiceManagement.Actions
         void IStartup.ConfigureServices(HostBuilderContext ctx, ICluuServiceConfigurationBuilder cluu)
         {
             // Services des generierten Codes hinzufügen
-            cluu.TryAddCluuAddInActions();
+            _ = cluu.TryAddCluuAddInActions();
+
+            _ = cluu.TryAddCluuMailManager();
+
+            cluu.TryAddSwhOnlineStreamingServiceManagement();
         }
     }
 }
