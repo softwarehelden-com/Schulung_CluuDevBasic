@@ -1,0 +1,56 @@
+﻿<App xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://schema.softwarehelden.com/xml/AppDefSchema-v3.xsd">
+
+  <Name>SwhOnlineStreamingServiceManagement</Name>
+
+  <!-- App-Store Metadata -->
+  <Caption>SwhOnlineStreamingServiceManagement</Caption>
+  <ShortDescription></ShortDescription>
+  <Manufacturer></Manufacturer>
+  <ManufacturerUrl></ManufacturerUrl>
+  <VersionUrl></VersionUrl>
+  <ProductUrl></ProductUrl>
+  <Category></Category>
+  <CluuFrameworkVersionRange>[6.0.0, )</CluuFrameworkVersionRange>
+  <Contact>
+	<Name></Name>
+	<MailAddress></MailAddress>
+  </Contact>
+
+  <PostDeploymentActions>
+	<!--<Action name="" triggerAppModels="" /> -->
+  </PostDeploymentActions>
+
+  <AddIn type="Web">
+	<Development>
+	  <!--<CopyTo>C:\Cluu\Install\Cluu_6_App_Dev\Frontend\AddIns</CopyTo>-->
+	</Development>
+	<Directory path="..\SwhOnlineStreamingServiceManagement.Web.UI\bin\$(Configuration)\netstandard2.0\">
+	  <File path="SwhOnlineStreamingServiceManagement.Web.UI.dll" containsStartup="true" />
+	  <File path="SwhOnlineStreamingServiceManagement.Web.UI.pdb" isDebug="true" />
+	</Directory>
+  </AddIn>
+
+  <AddIn type="Backbone">
+	<Development>
+	  <!--<CopyTo>C:\Cluu\Install\Cluu_6_App_Dev\Backbone\AddIns</CopyTo>-->
+	</Development>
+	<Directory path="..\SwhOnlineStreamingServiceManagement.Actions\bin\$(Configuration)\netstandard2.0\">
+	  <File path="SwhOnlineStreamingServiceManagement.Actions.dll" containsStartup="true" />
+	  <File path="SwhOnlineStreamingServiceManagement.Actions.pdb" isDebug="true" />
+	  <File path="SwhOnlineStreamingServiceManagement.dll" />
+	  <File path="SwhOnlineStreamingServiceManagement.pdb" isDebug="true" />
+	</Directory>
+  </AddIn>
+
+  <AddIn type="Metadata">
+	<Directory path="..\SwhOnlineStreamingServiceManagement.Metadata\bin\$(Configuration)\netstandard2.0\">
+	  <File path="SwhOnlineStreamingServiceManagement.Metadata.zip" />
+	</Directory>
+  </AddIn>
+
+  <AddIn type="Database">
+	<Directory path="..\SwhOnlineStreamingServiceManagement.Database\bin\$(Configuration)\">
+	  <File path="SwhOnlineStreamingServiceManagement.Database.dacpac" />
+	</Directory>
+  </AddIn>
+</App>

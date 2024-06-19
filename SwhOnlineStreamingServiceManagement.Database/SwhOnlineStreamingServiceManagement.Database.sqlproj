@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build">
+	<Sdk Name="Microsoft.Build.Sql" Version="0.1.7-preview" />
+	<PropertyGroup>
+		<ProjectGuid>{7EB5DFAA-C89B-4978-9D65-BF06FA18FEF2}</ProjectGuid>
+		<Name>SwhOnlineStreamingServiceManagement.Database</Name>
+		<DSP>Microsoft.Data.Tools.Schema.Sql.Sql130DatabaseSchemaProvider</DSP>
+		<ModelCollation>1033, CI</ModelCollation>
+		<SqlServerVerification>False</SqlServerVerification>
+		<TargetDatabaseSet>True</TargetDatabaseSet>
+		<TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+		<TargetFrameworkProfile />
+	</PropertyGroup>
+	<ItemGroup>
+		<Build Include="**/*.sql" />
+		<None Include="**/*.publish.xml" />
+	</ItemGroup>
+	<ItemGroup>
+		<Folder Include="Security\" />
+		<Folder Include="Security\Schemas\" />
+		<Folder Include="PublishProfile\" />
+	</ItemGroup>
+</Project>

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://schema.softwarehelden.com/json/metadataproj-v1.json",
+  "SourceConnectionString": ".",
+  "TargetConnectionString": "Server=localhost\\SQLEXPRESS;Database=Cluu_6_App_Dev;TrustServerCertificate=True;Integrated Security=true;Connection Timeout=30",
+  "ComparisonMode": "JsonToCluu",
+  "CompareDataAdapters": true,
+  "CompareViewFieldScope": false,
+  "AppModels": [
+    "SwhOnlineStreamingServiceManagement"
+  ],
+  "DryRun": false,
+  "ClearTarget": false,
+  "ComparisonCultureNames": [ "en-US" ],
+  "DefaultCultureName": "de-DE"
+}

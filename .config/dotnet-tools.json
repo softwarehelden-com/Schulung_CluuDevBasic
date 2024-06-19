@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "isRoot": true,
+  "tools": {
+    "cluu.cli": {
+      "version": "6.3.1",
+      "commands": [
+        "cluu"
+      ],
+      "rollForward": false
+    }
+  }
+}
