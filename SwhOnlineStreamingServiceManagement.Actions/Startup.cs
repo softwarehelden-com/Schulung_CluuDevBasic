@@ -7,14 +7,14 @@ namespace SwhOnlineStreamingServiceManagement.Actions
     /// <summary>
     /// Builds the service Provider used by the application.
     /// </summary>
-    [CluuAlwaysRunning]
+    //[CluuAlwaysRunning]
     public class Startup : IStartup
     {
         ///<inheritdoc/>
         void IStartup.ConfigureServices(HostBuilderContext ctx, ICluuServiceConfigurationBuilder cluu)
         {
             // Services des generierten Codes hinzufügen
-            //cluu.TryAddCluuAddInActions();
+            cluu.TryAddCluuAddInActions();
         }
     }
 }

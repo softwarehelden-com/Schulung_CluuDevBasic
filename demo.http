@@ -1,10 +1,11 @@
 // @name cluu_login
+// @prompt password
 POST https://localhost:44303/token
 Content-Type: application/x-www-form-urlencoded
 
 grant_type=password
 &username=Administrator
-&password=
+&password={{password}}
 &client_id=f704fe0b-3af9-46f9-81cb-fb8e528c2287
 &client_secret=
 &scope=openid+offline_access
@@ -20,3 +21,12 @@ Content-Type: text/plain; charset=utf-8
 FROM    SwhOnlineStreamingServiceManagement.Account
 SELECT  *
 
+###
+// @name invoke_SendAccountCredentials
+POST https://localhost:44301/invoke/SwhOnlineStreamingServiceManagement.AddIns.Notifications.SendAccountCredentials
+Authorization: Bearer {{cluu_login.response.body.access_token}}
+Content-Type: application/json; charset=utf-8
+
+{
+    "accountConstraint": "TRUE"
+}
