@@ -1,0 +1,22 @@
+// @name cluu_login
+POST https://localhost:44303/token
+Content-Type: application/x-www-form-urlencoded
+
+grant_type=password
+&username=Administrator
+&password=
+&client_id=f704fe0b-3af9-46f9-81cb-fb8e528c2287
+&client_secret=
+&scope=openid+offline_access
+&remote_scheme=CluuSecurity
+
+###
+// @name query
+POST https://localhost:44301/Query
+Authorization: Bearer {{cluu_login.response.body.access_token}}
+Accept: application/json; charset=utf-8
+Content-Type: text/plain; charset=utf-8
+
+FROM    SwhOnlineStreamingServiceManagement.Account
+SELECT  *
+
