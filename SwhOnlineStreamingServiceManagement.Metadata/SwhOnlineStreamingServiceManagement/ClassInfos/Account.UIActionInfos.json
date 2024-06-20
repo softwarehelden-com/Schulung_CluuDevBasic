@@ -4,14 +4,6 @@
       "UniqueId": "613dc241-aa81-4f80-b1db-2802c0f2e1f0",
       "Caption": "Zugangsdaten versenden...",
       "TypeDescriptor": 4,
-      "Configuration": {
-        "actionName": "SwhOnlineStreamingServiceManagement.AddIns.Notifications.SendAccountCredentials",
-        "title": "Zugangsdaten versenden",
-        "content": "Möchten Sie die Zugangsdaten an alle Personen mit Freigabe versenden?",
-        "applicationContextMapping": {
-          "cluuConstraintParameterName": "accountConstraint"
-        }
-      },
       "AvailableForCollection": true,
       "AvailableForObject": true,
       "Classification": 2,
@@ -19,7 +11,8 @@
       "IconFileName": "Eingangskanal_Bewerbung_24dp.svg",
       "IconContentType": "image/svg+xml",
       "IconContentLength": 739,
-      "UIComponentId": "1c393cc2-2058-4182-a547-64cb71b7e3d6"
+      "UIComponentId": "1c113a53-1784-47f0-8911-4fdec131f322",
+      "@UIComponentFriendlyName": "swhOnlineStreamingServiceManagement.web.ui.actions.sendAccountCredentialsAction"
     }
   ]
 }

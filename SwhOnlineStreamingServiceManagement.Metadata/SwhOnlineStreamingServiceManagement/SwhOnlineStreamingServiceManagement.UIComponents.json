@@ -1,0 +1,12 @@
+﻿{
+  "UIComponents": [
+    {
+      "UniqueId": "1c113a53-1784-47f0-8911-4fdec131f322",
+      "Name": "swhOnlineStreamingServiceManagement.web.ui.actions.sendAccountCredentialsAction",
+      "Caption": "Zugangdaten versenden",
+      "Type": 2,
+      "JsonEditor": 1,
+      "IsObsolete": false
+    }
+  ]
+}

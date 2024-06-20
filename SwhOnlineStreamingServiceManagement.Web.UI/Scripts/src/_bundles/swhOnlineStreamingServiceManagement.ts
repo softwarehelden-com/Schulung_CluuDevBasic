@@ -1,9 +1,6 @@
-﻿import { requireCss } from "cluu";
+﻿// import { requireCssAsync } from "cluu";
 
 // Require the css file when this file is loaded.
-requireCss("swhOnlineStreamingServiceManagement.less");
+// requireCssAsync("swhOnlineStreamingServiceManagement.less");
 
-// Use the import path with the correct case sensitivity.
-// The dts-bundle tool does not emit the module declaration correctly if it's wrong.
-export * from "../DemoControl";
-export * from "../DemoAction";
+export * from "../SendAccountCredentialsAction";

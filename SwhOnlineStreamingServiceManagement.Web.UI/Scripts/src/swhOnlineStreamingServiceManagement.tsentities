@@ -8,9 +8,13 @@
     {
       "appModelName": "SwhOnlineStreamingServiceManagement",
       // Auswahl der Klassen. null == alle, [] = keine.
-      "cluuClassNames": [],
+        "cluuClassNames": [
+            "SwhOnlineStreamingServiceManagement.Account"
+        ],
       // Auswahl der Aktionen. null == alle, [] = keine.
-      "cluuActionNames": []
+        "cluuActionNames": [
+            "SwhOnlineStreamingServiceManagement.AddIns.Notifications.SendAccountCredentials"
+        ]
     }
   ]
 }

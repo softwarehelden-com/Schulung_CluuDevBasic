@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
 using Cluu.Client.Mail;
@@ -27,6 +28,11 @@ namespace SwhOnlineStreamingServiceManagement.Notifications
             CancellationToken cancellationToken
         )
         {
+            if (accountConstraint is null)
+            {
+                throw new ArgumentNullException(nameof(accountConstraint));
+            }
+
             using (var ctx = this.dataContextFactory.Create())
             {
                 var accounts = await this.GetAccountsAsync(
