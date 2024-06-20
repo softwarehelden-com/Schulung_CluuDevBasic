@@ -53,7 +53,8 @@ namespace SwhOnlineStreamingServiceManagement.Notifications
         {
             var s = Account.CreateFieldSelector();
 
-            string[] selectFields = new string[]{
+            string[] selectFields = new string[]
+            {
                 s.Id,
                 s.Caption,
                 s.AccountShares.Person.FirstName,

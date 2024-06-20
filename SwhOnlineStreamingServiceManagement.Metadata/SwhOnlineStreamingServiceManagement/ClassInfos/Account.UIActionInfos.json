@@ -1,0 +1,25 @@
+﻿{
+  "UIActionInfos": [
+    {
+      "UniqueId": "613dc241-aa81-4f80-b1db-2802c0f2e1f0",
+      "Caption": "Zugangsdaten versenden...",
+      "TypeDescriptor": 4,
+      "Configuration": {
+        "actionName": "SwhOnlineStreamingServiceManagement.AddIns.Notifications.SendAccountCredentials",
+        "title": "Zugangsdaten versenden",
+        "content": "Möchten Sie die Zugangsdaten an alle Personen mit Freigabe versenden?",
+        "applicationContextMapping": {
+          "cluuConstraintParameterName": "accountConstraint"
+        }
+      },
+      "AvailableForCollection": true,
+      "AvailableForObject": true,
+      "Classification": 2,
+      "IconContent": "PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48c3ZnIGlkPSJ1dWlkLTgzZjU5YzFmLWFiNDgtNDVmNi04MWY5LTIzYzQ5MjhkNTI1NyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgMjAgMjMuMTMiPjxkZWZzPjxzdHlsZT4udXVpZC1iNWJhMDc5OC1lNGI5LTRiMzMtOWIyNy05MjYyNDE0NzFkOGF7c3Ryb2tlLXdpZHRoOjBweDt9PC9zdHlsZT48L2RlZnM+PHBhdGggY2xhc3M9InV1aWQtYjViYTA3OTgtZTRiOS00YjMzLTliMjctOTI2MjQxNDcxZDhhIiBkPSJtNi4xLDEzLjM2bDEuNTgsMS42SDMuNXYtMy41SDEuNXYzLjVjMCwuNTUuMiwxLjAyLjU5LDEuNDEuMzkuMzkuODYuNTksMS40MS41OWg0LjE4bC0xLjU4LDEuNiwxLjQsMS40LDQtNC00LTQtMS40LDEuNFoiLz48cGF0aCBjbGFzcz0idXVpZC1iNWJhMDc5OC1lNGI5LTRiMzMtOWIyNy05MjYyNDE0NzFkOGEiIGQ9Im0xNy45MSwzLjU1Yy0uMzktLjM5LS44Ni0uNTktMS40MS0uNTlIMy41Yy0uNTUsMC0xLjAyLjItMS40MS41OS0uMzkuMzktLjU5Ljg2LS41OSwxLjQxdjQuNTloMnMwLTMuMjEsMC0zLjIxbDYuNiw0LjYsNi40LTQuNTV2OC41N2gtMy4xMnYyaDMuMTJjLjU1LDAsMS4wMi0uMiwxLjQxLS41OS4zOS0uMzkuNTktLjg2LjU5LTEuNDFWNC45NmMwLS41NS0uMi0xLjAyLS41OS0xLjQxWm0tNy44MSw0Ljk2bC01LjEtMy41NWgxMC4wNWwtNC45NSwzLjU1WiIvPjwvc3ZnPg==",
+      "IconFileName": "Eingangskanal_Bewerbung_24dp.svg",
+      "IconContentType": "image/svg+xml",
+      "IconContentLength": 739,
+      "UIComponentId": "1c393cc2-2058-4182-a547-64cb71b7e3d6"
+    }
+  ]
+}
